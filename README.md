@@ -13,5 +13,5 @@
 <!-- END doctoc generó TOC por favor mantenga un comentario aquí para permitir la actualización automática -->
 
 # Instalar Git.
-![Clonando repositorio](Imagenes/clonar-repositorio.jpg)
-<img src="/home/gustavo/Desktop/Aprendiendo_Git/Imagenes/clonar repositorio.jpg"/>
+
+![image info](Imagenes/clonar.jpg)
