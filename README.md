@@ -1,6 +1,5 @@
 # Aprendiendo_Git
-
-# Carreras
+## Tutorial basado en Linux
 ==================================
 
 
@@ -12,6 +11,11 @@
 - [Instalar Git](#instalar-Git)
 <!-- END doctoc generó TOC por favor mantenga un comentario aquí para permitir la actualización automática -->
 
-# Instalar Git.
+# Instalacion de Git.
+Si quieres instalar Git en Linux a través de un instalador binario, en general puedes hacerlo mediante la herramienta básica de administración de paquetes que trae tu distribución
 
-![image info](Imagenes/clonar.jpg)
+*$ apt-get install git*
+
+
+
+![clonar un repositorio](Imagenes/clonar.jpg)
