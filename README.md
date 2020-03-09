@@ -9,6 +9,10 @@
 **Tabla de contenido**  *generado con: [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Primeros pasos con Git](#primeros-pasos-con-git)
+- [Crea un repositorio](#crea-un-repositorio)
+- [Clona tu repositorio](#clona-tu-repositorio)
+- [Cambios en tu repositorio](#cambios-en-tu-repositorio)
+
 <!-- END doctoc generó TOC por favor mantenga un comentario aquí para permitir la actualización automática -->
 
 # Primeros pasos con Git
@@ -53,7 +57,7 @@ Dirigite a (https://github.com/) y registrate es totalmente gratis.
 
 6. Haz clic en Crear repositorio.
 
-## Clona tu repositorio.
+# Clona tu repositorio.
 
 1. Una vez creado el repositorio haga clic en Clonar o descargar.
 
@@ -68,3 +72,5 @@ Dirigite a (https://github.com/) y registrate es totalmente gratis.
 ![clonar local repositorio](Imagenes/gitclone.png)
 
 Felicidades ahora cuentas con tu repositorio de manera local en tu equipo.
+
+# Cambios en tu repositorio.
