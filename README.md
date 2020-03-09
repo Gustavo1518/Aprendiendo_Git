@@ -52,3 +52,19 @@ Dirigite a (https://github.com/) y registrate es totalmente gratis.
 ![readme repositorio](Imagenes/readrepo.png)
 
 6. Haz clic en Crear repositorio.
+
+## Clona tu repositorio.
+
+1. Una vez creado el repositorio haga clic en Clonar o descargar.
+
+![clonar repositorio](Imagenes/butclone.png)
+
+2. Copia la url que se te muestra.
+
+![url repositorio](Imagenes/urlclone.png)
+
+3. Dirigete a la carpeta donde quieras que este tu repositorio y ejecuta el comando git clone y dale enter.
+
+![clonar local repositorio](Imagenes/gitclone.png)
+
+Felicidades ahora cuentas con tu repositorio de manera local en tu equipo.
