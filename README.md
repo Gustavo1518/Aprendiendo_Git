@@ -11,7 +11,8 @@
 - [Primeros pasos con Git](#primeros-pasos-con-git)
 - [Crea un repositorio](#crea-un-repositorio)
 - [Clona tu repositorio](#clona-tu-repositorio)
-- [Cambios en tu repositorio](#cambios-en-tu-repositorio)
+- [Subir cambios a repositorio remoto: git push](#subir-cambios-a-repositorio-remoto:-git-push)
+- [Comandos basicos de git](#comandos-basicos-de-git)
 
 <!-- END doctoc generó TOC por favor mantenga un comentario aquí para permitir la actualización automática -->
 
