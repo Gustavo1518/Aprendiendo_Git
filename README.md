@@ -1,7 +1,7 @@
 # Aprendiendo_Git
 ## Tutorial basado en Linux
 
-Git vs svn https://github.com/Gustavo1518/Git-vs-Svn
+### Git vs svn https://github.com/Gustavo1518/Git-vs-Svn
 ==================================
 
 
