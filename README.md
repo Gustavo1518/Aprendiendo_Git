@@ -156,3 +156,32 @@ Para borrar la rama.
 14. git stash: Este es uno de los comandos menos conocidos, pero ayuda a salvar cambios que no están por ser comprometidos inmediatamente, pero temporalmente
 
 > git stash
+
+# Ramas.
+
+La creacion de ramas en un proyecto de desarrollo es esencialmente importante cuando deseamos 
+hacer pruebas de codigo sin afectar a ramas principales.
+
+para crear una rama nueva en nuestro proyecto utilizaremos el comando git branch el cual si observamos
+resive el nombre de la nueva rama que deseamos crear como me muestra en la imagen siguiente
+
+dirigete ala carpeta de tu proyecto y has lo siguiente para crear tu nueva rama.
+
+![crear rama](Imagenes/crearrama.png)
+
+Para movernos a la rama creada aremos uso del siguiente comando git checkout como podemos observar
+nos hemos cambiado a la rama "prueba" cabe destacar que el comando git branch tal cual nuestra la rama
+donde nos encontramos actualmente.
+
+![Mover rama](Imagenes/moverama.png)
+
+## Eliminar tu rama
+
+para eliminar la rama creada localmente dirigite a la carpeta de tu repositorio y ejecuta el
+siguiente comando. La opcion -D elimina la rama sin importar el estado en que se encuentre asi que mucho cuidado.
+
+> git branch -D prueba
+
+Si queremos borrar una rama en remoto, ingresamos a la consola y ejecuta el siguiente comando.
+
+> git push origin --delete prueba
