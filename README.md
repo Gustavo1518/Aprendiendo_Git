@@ -13,10 +13,11 @@
 - [Primeros pasos con Git](#primeros-pasos-con-git)
 - [Crea un repositorio](#crea-un-repositorio)
 - [Clona tu repositorio](#clona-tu-repositorio)
-- [Subir cambios a repositorio remoto](#subir-cambios-a-repositorio-remoto:-git-push)
+- [Subir cambios a repositorio remoto](#subir-cambios-a-repositorio-remoto-git-push)
 - [Comandos basicos de git](#comandos-basicos-de-git)
 - [Ramas](#ramas)
 - [Los tres estados de git](#los-tres-estados-de-git)
+- [git stage y git commit](#git-stage-y-git-commit)
 
 <!-- END doctoc generó TOC por favor mantenga un comentario aquí para permitir la actualización automática -->
 
