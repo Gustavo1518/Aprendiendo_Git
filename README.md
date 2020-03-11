@@ -15,6 +15,8 @@
 - [Clona tu repositorio](#clona-tu-repositorio)
 - [Subir cambios a repositorio remoto](#subir-cambios-a-repositorio-remoto:-git-push)
 - [Comandos basicos de git](#comandos-basicos-de-git)
+- [Ramas](#ramas)
+- [Los tres estados de git](#los-tres-estados-de-git)
 
 <!-- END doctoc generó TOC por favor mantenga un comentario aquí para permitir la actualización automática -->
 
@@ -157,6 +159,9 @@ Para borrar la rama.
 
 > git stash
 
+15. git-stage: agrega el contenido del archivo al área de preparación
+
+> git stage
 # Ramas.
 
 La creacion de ramas en un proyecto de desarrollo es esencialmente importante cuando deseamos 
@@ -185,3 +190,24 @@ siguiente comando. La opcion -D elimina la rama sin importar el estado en que se
 Si queremos borrar una rama en remoto, ingresamos a la consola y ejecuta el siguiente comando.
 
 > git push origin --delete prueba
+
+# Los tres estados de git.
+
+1. Confirmado (committed): Estado que nos dice que nuestros archivos están almacenado de manera segura en nuestro BD local.
+
+2. Modificado (modified) Estado que avisa que modificaste algún archivo y no lo guardaste en la BD local.
+3. Preparado (staged) Estado que avisa que hemos marcado un archivo modificado para luego realizar una confirmación ("commit") en otras palabras son los archivos que hemos seleccionado para añadirlo a la versión actual.
+
+Esto nos lleva  a las 3 secciones principales de Git:
+
+1. El directorio de Git (Git directory): Es donde se almacena la información.
+2. El área de preparación (Stating area):  Es donde esta la información para la siguiente confirmación ("commit").
+3. El directorio de trabajo (Working directory): Es donde se elabora o modifica la información.
+
+![Estados git](Imagenes/estados.png)
+
+# git stage y git commit.
+
+**git stage** agrega el contenido del archivo al área de preparación es decir este es un sinonimo de **git add**
+
+**git commit**  Graba los cambios en el repositorio, el commit es un hilo directo de HEAD.
