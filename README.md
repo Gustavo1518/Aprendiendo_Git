@@ -73,7 +73,7 @@ Dirigite a (https://github.com/) y registrate es totalmente gratis.
 
 ![url repositorio](Imagenes/urlclone.png)
 
-3. Dirigete a la carpeta donde quieras que este tu repositorio y ejecuta el comando git clone y dale enter.
+3. Dirigete a la carpeta donde quieras que este tu repositorio y ejecuta el comando **git clone** y dale enter.
 
 ![clonar local repositorio](Imagenes/gitclone.png)
 
@@ -168,15 +168,15 @@ Para borrar la rama.
 La creacion de ramas en un proyecto de desarrollo es esencialmente importante cuando deseamos 
 hacer pruebas de codigo sin afectar a ramas principales.
 
-para crear una rama nueva en nuestro proyecto utilizaremos el comando git branch el cual si observamos
+para crear una rama nueva en nuestro proyecto utilizaremos el comando **git branch** el cual si observamos
 resive el nombre de la nueva rama que deseamos crear como me muestra en la imagen siguiente
 
 dirigete ala carpeta de tu proyecto y has lo siguiente para crear tu nueva rama.
 
 ![crear rama](Imagenes/crearrama.png)
 
-Para movernos a la rama creada aremos uso del siguiente comando git checkout como podemos observar
-nos hemos cambiado a la rama "prueba" cabe destacar que el comando git branch tal cual nuestra la rama
+Para movernos a la rama creada aremos uso del siguiente comando **git checkout** como podemos observar
+nos hemos cambiado a la rama "prueba" cabe destacar que el comando **git branch** tal cual nuestra la rama
 donde nos encontramos actualmente.
 
 ![Mover rama](Imagenes/moverama.png)
