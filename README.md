@@ -163,6 +163,22 @@ Para borrar la rama.
 15. git-stage: agrega el contenido del archivo al área de preparación
 
 > git stage
+
+# Los tres estados de git.
+
+1. Confirmado (committed): Estado que nos dice que nuestros archivos están almacenado de manera segura en nuestro BD local.
+
+2. Modificado (modified) Estado que avisa que modificaste algún archivo y no lo guardaste en la BD local.
+3. Preparado (staged) Estado que avisa que hemos marcado un archivo modificado para luego realizar una confirmación ("commit") en otras palabras son los archivos que hemos seleccionado para añadirlo a la versión actual.
+
+Esto nos lleva  a las 3 secciones principales de Git:
+
+1. El directorio de Git (Git directory): Es donde se almacena la información.
+2. El área de preparación (Stating area):  Es donde esta la información para la siguiente confirmación ("commit").
+3. El directorio de trabajo (Working directory): Es donde se elabora o modifica la información.
+
+![Estados git](Imagenes/estados.png)
+
 # Ramas.
 
 La creacion de ramas en un proyecto de desarrollo es esencialmente importante cuando deseamos 
@@ -219,21 +235,6 @@ Git rebase básicamente lo que hace es recopilar uno a uno los cambios confirmad
 > git rebase prueba
 
 ![Estados git](Imagenes/git_rebase.jpg)
-
-# Los tres estados de git.
-
-1. Confirmado (committed): Estado que nos dice que nuestros archivos están almacenado de manera segura en nuestro BD local.
-
-2. Modificado (modified) Estado que avisa que modificaste algún archivo y no lo guardaste en la BD local.
-3. Preparado (staged) Estado que avisa que hemos marcado un archivo modificado para luego realizar una confirmación ("commit") en otras palabras son los archivos que hemos seleccionado para añadirlo a la versión actual.
-
-Esto nos lleva  a las 3 secciones principales de Git:
-
-1. El directorio de Git (Git directory): Es donde se almacena la información.
-2. El área de preparación (Stating area):  Es donde esta la información para la siguiente confirmación ("commit").
-3. El directorio de trabajo (Working directory): Es donde se elabora o modifica la información.
-
-![Estados git](Imagenes/estados.png)
 
 # git stage y git commit.
 
