@@ -192,6 +192,34 @@ Si queremos borrar una rama en remoto, ingresamos a la consola y ejecuta el sigu
 
 > git push origin --delete prueba
 
+## Fucionar ramas.
+
+**Git merge o Git rebase**
+
+En git existen dos formas que nos permiten unir ramas, git merge y git rebase. La forma mas conocida es git merge, la cual realiza una fusión a tres bandas entre las dos últimas instantáneas de cada rama y el ancestro común a ambas, creando un nuevo commit con los cambios mezclados.
+
+Git rebase básicamente lo que hace es recopilar uno a uno los cambios confirmados en una rama, y reaplicarlos sobre otra. Utilizar rebase nos puede ayudar a evitar conflictos siempre que se aplique sobre commits que están en local y no han sido subidos a ningún repositorio remoto. Si no tienen cuidado con esto último y algún compañero utiliza cambios afectados, seguro que tendrá problemas ya que este tipo de conflictos normalmente son difíciles de reparar.
+
+### Veamos un ejemplo.
+
+**Punto de partida**
+
+![Estados git](Imagenes/partida.jpg)
+
+**Ejemplo de fusion con git merge**
+
+> git checkout master
+> git merge prueba
+
+![Estados git](Imagenes/git_merge.jpg)
+
+**Ejemplo de fusion con git rebase**
+
+> git checkout master
+> git rebase prueba
+
+![Estados git](Imagenes/git_rebase.jpg)
+
 # Los tres estados de git.
 
 1. Confirmado (committed): Estado que nos dice que nuestros archivos están almacenado de manera segura en nuestro BD local.
