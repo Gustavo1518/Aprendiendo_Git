@@ -17,7 +17,7 @@
 - [Comandos basicos de git](#comandos-basicos-de-git)
 - [Ramas](#ramas)
 - [Los tres estados de git](#los-tres-estados-de-git)
-- [git stage y git commit](#git-stage-y-git-commit)
+
 
 <!-- END doctoc generó TOC por favor mantenga un comentario aquí para permitir la actualización automática -->
 
@@ -212,9 +212,9 @@ Si queremos borrar una rama en remoto, ingresamos a la consola y ejecuta el sigu
 
 **Git merge o Git rebase**
 
-En git existen dos formas que nos permiten unir ramas, git merge y git rebase. La forma mas conocida es git merge, la cual realiza una fusión a tres bandas entre las dos últimas instantáneas de cada rama y el ancestro común a ambas, creando un nuevo commit con los cambios mezclados.
+En git existen dos formas que nos permiten unir ramas, **git merge** y **git rebase.** La forma mas conocida es git merge, la cual realiza una fusión a tres bandas entre las dos últimas instantáneas de cada rama y el ancestro común a ambas, creando un nuevo commit con los cambios mezclados.
 
-Git rebase básicamente lo que hace es recopilar uno a uno los cambios confirmados en una rama, y reaplicarlos sobre otra. Utilizar rebase nos puede ayudar a evitar conflictos siempre que se aplique sobre commits que están en local y no han sido subidos a ningún repositorio remoto. Si no tienen cuidado con esto último y algún compañero utiliza cambios afectados, seguro que tendrá problemas ya que este tipo de conflictos normalmente son difíciles de reparar.
+**git rebase** básicamente lo que hace es recopilar uno a uno los cambios confirmados en una rama, y reaplicarlos sobre otra. Utilizar rebase nos puede ayudar a evitar conflictos siempre que se aplique sobre commits que están en local y no han sido subidos a ningún repositorio remoto. Si no tienen cuidado con esto último y algún compañero utiliza cambios afectados, seguro que tendrá problemas ya que este tipo de conflictos normalmente son difíciles de reparar.
 
 ### Veamos un ejemplo.
 
@@ -235,9 +235,3 @@ Git rebase básicamente lo que hace es recopilar uno a uno los cambios confirmad
 > git rebase prueba
 
 ![Estados git](Imagenes/git_rebase.jpg)
-
-# git stage y git commit.
-
-**git stage** agrega el contenido del archivo al área de preparación es decir este es un sinonimo de **git add**
-
-**git commit**  Graba los cambios en el repositorio, el commit es un hilo directo de HEAD.
